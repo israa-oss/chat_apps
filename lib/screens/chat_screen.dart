@@ -232,7 +232,7 @@ class _ChatScreenState extends State<ChatScreen> {
               child: Container(
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(20),
-                  border: Border(
+                  border: const Border(
                     bottom: BorderSide(
                       color: Colors.blue,
                       width: 2,
